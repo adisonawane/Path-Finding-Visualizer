@@ -36,9 +36,9 @@ render(){
                         <Node 
                         key = {nodeIdx}
                         col = {col}
+                        row = {row}
                         isFinish = {isFinish}
                         isStart = {isStart}
-                        row = {row}
                         ></Node>
                     );
                     })}
